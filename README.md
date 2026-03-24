@@ -135,3 +135,28 @@ Disabled unnecessary startup applications and improved performance.
 
 ### Follow-up
 Recommended regular restart schedule.
+## External Monitor Not Detected
+
+### Issue
+Second monitor not displaying output.
+
+### Environment
+Windows laptop with HDMI connection
+
+### Symptoms
+- External monitor black screen
+- Laptop detects no second display
+
+### Troubleshooting Performed
+- Checked cable connection
+- Tested display settings
+- Restarted graphics driver
+
+### Root Cause
+Display output set to single screen only.
+
+### Resolution
+Enabled duplicate/extend display mode successfully.
+
+### Follow-up
+Confirmed both screens functioning normally.
