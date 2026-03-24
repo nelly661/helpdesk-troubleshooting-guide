@@ -82,3 +82,29 @@ Correct credentials entered and VPN connection restored.
 
 ### Follow-up
 Advised user to save credentials securely.
+## Printer Offline Issue
+
+### Issue
+User unable to print documents.
+
+### Environment
+Windows 10, network printer
+
+### Symptoms
+- Printer appears offline
+- Print jobs remain in queue
+
+### Troubleshooting Performed
+- Checked printer connection
+- Restarted print spooler service
+- Cleared print queue
+- Verified default printer settings
+
+### Root Cause
+Print spooler service stopped.
+
+### Resolution
+Restarted service and printing restored.
+
+### Follow-up
+Advised user to restart printer if issue returns.
