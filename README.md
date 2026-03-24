@@ -1,44 +1,58 @@
+
 # Help Desk Troubleshooting Guide
 
 ## Password Reset Issue
-### Problem:
-User cannot log into account.
 
-### Troubleshooting Steps:
-- Verify username
-- Check caps lock
-- Reset password
-- Confirm account is unlocked
+### Issue
+User unable to log into company account.
 
-### Resolution:
-Password reset completed and user confirmed access restored.
+### Environment
+Windows 10, Microsoft 365 login portal
+
+### Symptoms
+- Incorrect password message displayed
+- Multiple failed login attempts
+
+### Troubleshooting Performed
+- Verified username entered correctly
+- Checked keyboard caps lock
+- Confirmed account status in system
+- Initiated password reset
+
+### Root Cause
+Password expired.
+
+### Resolution
+Password reset completed successfully and user regained access.
+
+### Follow-up
+Recommended password update reminder before expiration date.
 
 ---
 
 ## Wi-Fi Connectivity Issue
-### Problem:
-User connected but no internet access.
 
-### Troubleshooting Steps:
-- Restart router
-- Run ipconfig /release and /renew
-- Forget and reconnect network
-- Check DNS settings
+### Issue
+User connected to Wi-Fi but internet unavailable.
 
-### Resolution:
-Network reconnected successfully.
+### Environment
+Windows laptop, home network
 
----
+### Symptoms
+- Browser not loading pages
+- Network shows connected without internet
 
-## Outlook Not Syncing
-### Problem:
-Emails not updating.
+### Troubleshooting Performed
+- Restarted router
+- Ran ipconfig /release and ipconfig /renew
+- Flushed DNS cache
+- Reconnected network adapter
 
-### Troubleshooting Steps:
-- Restart Outlook
-- Check internet connection
-- Repair Outlook profile
-- Verify mailbox quota
+### Root Cause
+Temporary DNS conflict.
 
-### Resolution:
-Mailbox synced after profile refresh.
+### Resolution
+Connection restored after DNS refresh.
+
+### Follow-up
+Suggested restarting router if issue returns.
