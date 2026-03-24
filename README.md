@@ -108,3 +108,30 @@ Restarted service and printing restored.
 
 ### Follow-up
 Advised user to restart printer if issue returns.
+## Slow Computer Performance
+
+### Issue
+User reports slow system performance during normal tasks.
+
+### Environment
+Windows 10 desktop
+
+### Symptoms
+- Delayed application opening
+- Slow login
+- High fan activity
+
+### Troubleshooting Performed
+- Checked startup programs
+- Reviewed task manager processes
+- Cleared temporary files
+- Restarted device
+
+### Root Cause
+Too many startup applications consuming memory.
+
+### Resolution
+Disabled unnecessary startup applications and improved performance.
+
+### Follow-up
+Recommended regular restart schedule.
