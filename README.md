@@ -56,3 +56,29 @@ Connection restored after DNS refresh.
 
 ### Follow-up
 Suggested restarting router if issue returns.
+## VPN Access Issue
+
+### Issue
+User unable to connect to VPN remotely.
+
+### Environment
+Windows 11, VPN client
+
+### Symptoms
+- Authentication failed
+- VPN disconnects immediately
+
+### Troubleshooting Performed
+- Verified credentials
+- Checked internet connection
+- Restarted VPN client
+- Tested DNS connectivity
+
+### Root Cause
+Incorrect credentials entered.
+
+### Resolution
+Correct credentials entered and VPN connection restored.
+
+### Follow-up
+Advised user to save credentials securely.
